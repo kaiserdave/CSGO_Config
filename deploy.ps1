@@ -1,1 +1,1 @@
-copy *.cfg "C:\Program Files (x86)\Steam\SteamApps\common\Counter-Strike Global Offensive\csgo\cfg"
+copy *.cfg "C:\Program Files (x86)\Steam\userdata\<PARTNERID>\730\local\cfg"
