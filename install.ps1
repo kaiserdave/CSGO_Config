@@ -7,7 +7,7 @@ foreach ($steampath in $steampaths) {
         $csgoprofiles = (gci "${steampath}\userdata\[0-9]*\730\local\cfg")
         foreach ($csgoprofile in $csgoprofiles) {
             echo "Deploying to '${csgoprofile}'"
-            copy *.cfg $csgoprofile
+            copy ./cfg/*.cfg $csgoprofile
         }
     }
 }
