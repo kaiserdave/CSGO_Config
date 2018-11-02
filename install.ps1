@@ -1,6 +1,6 @@
 $steampaths = ("C:\Program Files\Steam",
     "C:\Program Files (x86)\Steam",
-    "G:\Program Files\Steam")
+    "G:\Program Files (x86)\Steam")
 
 foreach ($steampath in $steampaths) {
     if ((Test-Path $steampath)) {
