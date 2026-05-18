@@ -10,6 +10,6 @@ do
 	echo "Checking $F"
 	targetdir="${cscfgdir}/$F" 
 	test -f "${targetdir}" || echo "    Not found $F"
-	git diff "${targetdir}" "${basedir}/$F"
+	git diff "${targetdir}" "${basedir}/$F" 2> /dev/null
 done
 
